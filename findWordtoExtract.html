@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find-Word-to-Extract</title>
+</head>
+<body>
+    <script>
+ 
+
+    let extractWord = (str) =>{
+        str = str.toLowerCase();
+        if(str === str.toLowerCase()){
+            return str.substring(str.lastIndexOf('hello')+5,(str.lastIndexOf('world')));
+        }
+
+        // console.log(lowerStr)
+    
+    }
+
+    console.log(extractWord('THIS IS TEST HELLO TEST IS COMPLETED WORLD THANK YOU'));
+    </script>
+</body>
+</html>
